@@ -11,9 +11,7 @@
 }
 
 .section-quantity {
-    width: 20%;
     display: flex;
-    justify-content: space-between;
 }
 
 .section-textarea {
@@ -29,5 +27,12 @@
 }
 
 .quantity-button {
+    fill: #2f3676;
     cursor: pointer;
+    
 }
+
+.quantity-button:hover {
+    fill: #191847;
+}
+
