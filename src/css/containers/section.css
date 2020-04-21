@@ -1,3 +1,31 @@
 .sections {
-    top: var(--gap-big);
+    margin-top: var(--gap-big);
+    padding-left: var(--gap-big);
 }
+
+.sections > .section-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: var(--gap-small);
+}
+
+.section-quantity {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-textarea {
+    resize: none;
+    width: 500px;
+    height: 150px;
+    background: #DDE3E9;
+    border: 1px solid #2F3676;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+

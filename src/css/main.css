@@ -5,5 +5,10 @@
 @import './elements/base.css';
 
 
+@import './components/checkbox-square.css';
+@import './components/input-quantity.css';
+
+
 @import './containers/header.css';
 @import './containers/section.css';
+@import './containers/footer-section.css';

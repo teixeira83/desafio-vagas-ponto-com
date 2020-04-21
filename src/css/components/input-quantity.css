@@ -1,0 +1,12 @@
+.input-quantity {
+    width: 50px;
+    height: 40px;
+    color: #071723;
+    font-weight: bold;
+    font-size: 20.01px;
+    line-height: 24px;
+    text-align: center;
+    background: #DDE3E9;
+    border: 1px solid #2F3676;
+    border-radius: 4px;
+}
