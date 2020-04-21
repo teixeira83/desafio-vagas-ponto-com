@@ -9,4 +9,6 @@
     background: #DDE3E9;
     border: 1px solid #2F3676;
     border-radius: 4px;
+    margin-left: var(--gap-small);
+    margin-right: var(--gap-small);
 }

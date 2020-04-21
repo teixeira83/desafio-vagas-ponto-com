@@ -1,23 +1,28 @@
 .footer-section {
     margin-top: var(--gap-big);
+    background-color: #DDE3E9;
+    box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
 }
 
 .footer-form {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 101px;
     background: #DDE3E9;
 }
 
 .btn-send {
+    cursor: pointer;
     width: 133px;
     height: 37px;
     justify-content: right;
-
+    margin-right: var(--gap-medium);
+    
     background: #2F3676;
     border-radius: 7px;
-
+    
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;

@@ -1,12 +1,12 @@
 .sections {
-    margin-top: var(--gap-big);
-    padding-left: var(--gap-big);
+    padding-left: var(--gap-medium);
 }
 
 .sections > .section-title {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
+    margin-top: var(--gap-big);
     margin-bottom: var(--gap-small);
 }
 
@@ -14,7 +14,6 @@
     width: 20%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .section-textarea {
@@ -29,3 +28,6 @@
     line-height: 24px;
 }
 
+.quantity-button {
+    cursor: pointer;
+}

@@ -4,5 +4,20 @@ html, body {
 }
 
 body {
-    font-family: 'Inter', sans-serif;   
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;  
+    background-repeat: no-repeat; 
+    background-color: #663399;
+}
+
+.container-box {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 560px;
+    height: 800px;
+    background-color: #F2F2F2;
+    border: 1px solid #979797;
+    box-shadow: 10px 22px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
 }
