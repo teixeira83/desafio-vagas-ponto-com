@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Teste da VAGAS.com para frontend :)",
+  "main": "src/js/index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teixeira83/desafio-vagas-ponto-com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teixeira83/desafio-vagas-ponto-com/issues"
+  },
+  "homepage": "https://github.com/teixeira83/desafio-vagas-ponto-com#readme"
+}

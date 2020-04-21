@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.header-img {
+    width: 100%;
+    position: absolute;    
+}
+
+.container-header-title {
+    position: absolute;
+    width: 40%;
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 28px;
+    top: var(--gap-medium);
+    left: var(--gap-medium);
+}
+
+.container-header-title > strong {
+    font-weight: bold;
+}
+
