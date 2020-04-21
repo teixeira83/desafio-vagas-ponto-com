@@ -22,55 +22,59 @@
             </div>
         </header>
         
-        <section class="sections">
-            <h2 class="section-title">Quais stickers?</h2>
-            
-            <label class="container-checkbox">React
-                <input class="checkbox-square" type="checkbox" id="react" name="react">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container-checkbox">Vue
-                <input class="checkbox-square" type="checkbox" id="vue" name="vue">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container-checkbox">Angular
-                <input class="checkbox-square" type="checkbox" id="angular" name="angular">
-                <span class="checkmark"></span>
-            </label>
-        </section>
+        <form id="form-stickers">
 
-        <section class="sections">
-            <h2 class="section-title">Quantos stickers de cada?</h2>
-            <div class="section-quantity">
+            <section class="sections">
+                <h2 class="section-title">Quais stickers?</h2>
                 
-                <svg class="quantity-button" id="btn-sub" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="subtrairContador()">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.66667C0 2.09067 2.09067 0 4.66667 0H37.3333C39.9093 0 42 2.09067 42 4.66667V37.3333C42 39.9093 39.9093 42 37.3333 42H4.66667C2.09067 42 0 39.9093 0 37.3333V4.66667ZM9.33333 23.3333H32.6667V18.6667H9.33333V23.3333Z"/>
-                </svg>                    
+                <label class="container-checkbox">React
+                    <input class="checkbox-square" type="checkbox" id="react" name="react" checked>
+                    <span class="checkmark"></span>
+                </label>
+                
+                <label class="container-checkbox">Vue
+                    <input class="checkbox-square" type="checkbox" id="vue" name="vue">
+                    <span class="checkmark"></span>
+                </label>
+                
+                <label class="container-checkbox">Angular
+                    <input class="checkbox-square" type="checkbox" id="angular" name="angular">
+                    <span class="checkmark"></span>
+                </label>
+            </section>
+    
+            <section class="sections">
+                <h2 class="section-title">Quantos stickers de cada?</h2>
+                <div class="section-quantity">
+                    
+                    <svg class="quantity-button" id="btn-sub" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="subtrairContador()">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.66667C0 2.09067 2.09067 0 4.66667 0H37.3333C39.9093 0 42 2.09067 42 4.66667V37.3333C42 39.9093 39.9093 42 37.3333 42H4.66667C2.09067 42 0 39.9093 0 37.3333V4.66667ZM9.33333 23.3333H32.6667V18.6667H9.33333V23.3333Z"/>
+                    </svg>                    
+    
+                    <input class="input-quantity" id="contador" placeholder="0">
+                    
+                    <svg class="quantity-button" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="somarContador()">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.3333 42H4.66667C2.09067 42 0 39.9093 0 37.3333V4.66667C0 2.09067 2.09067 0 4.66667 0H37.3333C39.9093 0 42 2.09067 42 4.66667V37.3333C42 39.9093 39.9093 42 37.3333 42ZM18.6667 18.6667H9.33333V23.3333H18.6667V32.6667H23.3333V23.3333H32.6667V18.6667H23.3333V9.33333H18.6667V18.6667Z"/>
+                    </svg>    
+                    
+                </div>
+            </section>
+            
+            <section class="sections">
+                <h2 class="section-title">Observações:</h2>
+                
+                <textarea class="section-textarea" id="obs-textarea"></textarea>
+                
+            </section>
+    
+            <footer class="footer-section">
+                <div class="footer-form">
+                    <label id="label-confirm-form" name="label-confirm-form" class="footer-label"></label>
+                    <button class="btn-send" type="submit">Enviar</button>
+                </div>
+            </footer>
 
-                <input class="input-quantity" id="contador" placeholder="0">
-                
-                <svg class="quantity-button" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" onclick="somarContador()">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M37.3333 42H4.66667C2.09067 42 0 39.9093 0 37.3333V4.66667C0 2.09067 2.09067 0 4.66667 0H37.3333C39.9093 0 42 2.09067 42 4.66667V37.3333C42 39.9093 39.9093 42 37.3333 42ZM18.6667 18.6667H9.33333V23.3333H18.6667V32.6667H23.3333V23.3333H32.6667V18.6667H23.3333V9.33333H18.6667V18.6667Z"/>
-                </svg>    
-                
-            </div>
-		</section>
-		
-		<section class="sections">
-			<h2 class="section-title">Observações:</h2>
-			
-			<textarea class="section-textarea" id="obs-textarea">
-			</textarea>			
-		</section>
-
-		<footer class="footer-section">
-			<div class="footer-form">
-				<label id="label-confirm-form" name="label-confirm-form"></label>
-				<button class="btn-send" type="submit">Enviar</button>
-			</div>
-		</footer>
+        </form>
     </div>
 
 	<script src="./js/index.js"></script>
